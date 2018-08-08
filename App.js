@@ -6,15 +6,19 @@
  * @flow
  */
 
-import React, { Component } from 'react';
-import { Platform, StyleSheet, Text, View } from 'react-native';
-import { rootstack } from './src/navigation/rootstack';
-
-const Rootstack = rootstack;
+import React, { Component } from "react";
+import { Rootstack } from "./src/navigation/rootstack";
+import { StatusBar } from "react-native";
 
 type Props = {};
 export default class App extends Component<Props> {
+
+    constructor(props) {
+        super(props);
+    }
+
     render() {
+        StatusBar.setBarStyle("light-content", true);
         return (
             <Rootstack/>
         );

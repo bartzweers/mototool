@@ -1,0 +1,11 @@
+{
+    "printWidth": 80,
+    "useTabs": false,
+    "semi": true,
+    "jsxBracketSameLine": false,
+    "bracketSpacing": true,
+    "singleQuote": false,
+    "arrowParens": "avoid",
+    "tabWidth": 4,
+    "prettier.eslintIntegration": true
+}
